@@ -152,7 +152,7 @@ legend("bottomleft", fill = 4:5, legend = c("Yes", "No"), cex = 0.75,
     title = "Parent Smoking")
 ```
 
-![](plot_results-1.png)<!-- -->
+![](01_Network_Graph.png)<!-- -->
 
 The network captures the following node attributes and related
 covariates:
