@@ -1,4 +1,4 @@
-NCRM SNA Short Course
+NCRM SNA Short Course Project
 ================
 School of Health and Wellbeing - UofG
 September, 2023
