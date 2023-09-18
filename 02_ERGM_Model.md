@@ -323,8 +323,8 @@ It is interesting to note the poor fit against the geodesic, as the
 edges are weighted by beeline distance this may conflate the poor fit
 since naturally you would not measure the closest route to a friends’
 home through taking intermediate stops to other friends’ homes, even
-worse travelling along straight lines - unfortunately this is no
-Euclidean universe or not!!
+worse travelling along straight lines - fortunately this is no
+Euclidean universe!!
 
 There is also the recognition that we account for little information but
 it might be an interesting exercise nevertheless, measuring your
