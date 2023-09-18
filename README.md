@@ -16,5 +16,5 @@ Teenage Friends and Lifestyle Study - Glasgow
 Unless otherwise stated all base values for binary variable recodings are set to 0. Missing values are assumed to occur
 completely at random. All data for the application was extracted from Wave 2 of the study.
 
-Acknowledgement: Code for the application was adapted from the NCRM Social Network Analysis,
-all due acknowledgements to the instructor, Dr. Michael Heaney.
+Acknowledgement: Code for the application was adapted from the NCRM Social Network Analysis Short Course (Sept. 2023),
+all due acknowledgements are attributed the instructor, Dr. Michael Heaney.
