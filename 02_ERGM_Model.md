@@ -271,7 +271,7 @@ par(mfrow = c(2, 3))
 plot(Model_01_GOF, cex.lab = 1, cex.axis = 1, plotlogodds = TRUE)
 ```
 
-![](Visuals02_Model1_Diagnostics.png)<!-- -->
+![](02_Model1_Diagnostics.png)<!-- -->
 
 Next we can observe the fit of Model 2 for different ‘higher’ level
 statistics of the model.
