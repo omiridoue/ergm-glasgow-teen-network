@@ -271,7 +271,7 @@ par(mfrow = c(2, 3))
 plot(Model_01_GOF, cex.lab = 1, cex.axis = 1, plotlogodds = TRUE)
 ```
 
-![](Notebook_Visuals/Visuals02_Model1_Diagnostics.png)<!-- -->
+![](Visuals02_Model1_Diagnostics.png)<!-- -->
 
 Next we can observe the fit of Model 2 for different ‘higher’ level
 statistics of the model.
@@ -304,7 +304,7 @@ par(mfrow = c(2, 3))
 plot(Model_02_GOF, cex.lab = 1, cex.axis = 1, plotlogodds = TRUE)
 ```
 
-![](Notebook_Visuals/02_Model2_Diagnostics.png)<!-- -->
+![](02_Model2_Diagnostics.png)<!-- -->
 
 The model fit does not seem to improve much other than with the indegree
 statistic. To interpret the plots we see that the black line fits the
