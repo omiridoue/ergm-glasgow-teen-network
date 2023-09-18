@@ -168,7 +168,9 @@ otherwise known as the sigmoid function, $\sigma(z)$,
 
 $$
 \sigma(z) = \frac{1} {1 + e^{-z}}
-$$ The z-index in this case is our model estimation; however, we need to
+$$ 
+
+The z-index in this case is our model estimation; however, we need to
 feed these values into the function to interpret estimations in terms of
 probability of tie formation at the network level, conditional on the
 variables that we model at a given specification.
