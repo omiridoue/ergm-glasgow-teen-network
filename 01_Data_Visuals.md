@@ -19,11 +19,17 @@ Load dependencies including that of `library(statnet)` to be able to
 parse data as Network objects. We also tap into data-processing
 libraries including `library(dplyr)`.
 
-``` r
-library(dplyr)
-library(ggplot2)
-library(statnet)
-library(formatR)
+```{r dependencies, echo=T, messages=F}
+# Pass the set of libraries we intend to load as a list
+libraries <- c("statnet","dplyr","ggplot2","formatR")
+
+wants <- libraries
+has   <- wants %in% rownames(installed.packages())
+
+# Adapted code to check if packages have already been installed
+if(any(!has)) install.packages(wants[!has])
+
+lapply(wants, library, character.only=TRUE, warn.conflicts=F, quietly=T)
 ```
 
 Next load the survey files covering aspects from students’ lifestyle to
