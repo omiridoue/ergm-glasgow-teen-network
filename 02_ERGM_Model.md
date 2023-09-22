@@ -232,7 +232,7 @@ model.
 
 Given that you are a non-smoker, the estimated probability of forming a
 friendship with someone who is also a
-non-smoker,$1/(1+exp(-(-4.3528+0.7176)))=0.0257$, is 2.57 per cent. That
+non-smoker, $1/(1+exp(-(-4.3528+0.7176)))=0.0257$, is 2.57 per cent. That
 is for non-smokers the probability of forming a within-level tie with
 their peers is marginally higher, 0.4 per cent, compared to striking a
 friendship with any other person regardless of their smoking habits.
