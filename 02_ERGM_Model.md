@@ -239,10 +239,16 @@ friendship with any other person regardless of their smoking habits.
 
 These values change to $\frac{1}{1+exp(-(-4.3528+2(0.7176)))}=0.0512$ and
 $\frac{1}{1+exp(-(-4.3528+3(0.7176)))}=0.0998$ for those occasionally and
-regularly smoking, more than once a week. These correspond to a 3.02 and
-7.88 per cent, difference in within-smoking-level compared to
-across-smoking-level formation. The probability of tie formation may
-therefore be increased by smoking behavior.
+regularly smoking, more than once a week. These correspond to a 3.02 (=5.12-2.57) and
+7.88 (9.88 - 2.57) per cent, difference in within-smoking-level compared to
+across-smoking-level formation. Note the probability of tie formation 
+'across-smoking-level', that is regardless of others' smoking habits, is the
+previously estimated edge coefficient from Model 1. In turn the probability of 
+'within-level' tie formation is the probability of tie formation in excess of
+the propensity for tie formation, the difference in probability after taking away
+the latter propensity to strike friendships, estimated at 2.57 per cent. 
+We might think that the probability of tie formation may
+be reinforced by smoking behavior.
 
 Homophily is pertinent to this case as it reflects the extent to which
 pockets of higher *prevalence* of smoking, slowing the diffusion of
