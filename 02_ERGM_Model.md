@@ -227,7 +227,7 @@ summary(Model_2)
     ## AIC: 4960  BIC: 4977  (Smaller is better. MC Std. Err. = 0)
 
 From model 1 the probability of network tie formation is
-$1/(1+exp(-(3.84045)))=0.021$, 2.1 per cent higher than in a random
+$\frac{1}{1+exp(-(3.84045))}=0.021$, 2.1 per cent higher than in a random
 model.
 
 Given that you are a non-smoker, the estimated probability of forming a
