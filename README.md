@@ -10,7 +10,7 @@ Teenage Friends and Lifestyle Study - Glasgow
 |        Recoded Variable Name         |                               Original Study Indicator                           |
 |------------------------------------- | ---------------------------------------------------------------------------------| 
 |     Smoking (Vertex attribute)       |  1 if occasional (tobacco[,2]=2) or regular (tobacco[,2]=3); 0 if Non-Smoker (tobacco[,2]=1) or Missing value 'NA' |
-|           friendship.2               |  Adjacency matrix; structural zero coerced to 0, close (ij=1) & best friend (ij=2) to 1|
+|           friendship.2               |  Adjacency matrix; structural zero recoded to 0, close (ij=1) & best friend (ij=2) to 1|
 | Parent Smoking (Vertex attribute)    |  1 if Parent Smokes (familysmoking[,2]=2) and 0 when (familysmoking[,2]=1 indicating a Non-Smoker or Missing values 'NA') |
 | Geographic Distance (Edge attribute) |                   Bee-line distance b/w students' home address (km)              |
 
