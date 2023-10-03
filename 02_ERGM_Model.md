@@ -243,11 +243,11 @@ regularly smoking, more than once a week. These correspond to a 3.02 (=5.12-2.57
 7.88 (9.88 - 2.57) per cent, difference in within-smoking-level compared to
 across-smoking-level formation. Note the probability of tie formation 
 'across-smoking-level', that is regardless of others' smoking habits, is the
-previously estimated edge coefficient from Model 1. In turn the probability of 
-'within-level' tie formation is the probability of tie formation in excess of
-the propensity for tie formation, the difference in probability after taking away
-the latter propensity to strike friendships, estimated at 2.57 per cent. 
-We might think that the probability of tie formation may
+previously estimated edge coefficient from Model 1, this is no other than the proportion of
+friendships out of all possible ties that students may form. In turn, the probability of 
+'within-level' tie formation, striking a friendship with a peer who shares similar smoking habits,
+is the probability of tie formation *in excess* of your disposition/willingness to form friendships.
+The value is estimated at 2.57 per cent. All in all we might think that the probability of tie formation may
 be reinforced by smoking behavior.
 
 Homophily is pertinent to this case as it reflects the extent to which
@@ -334,8 +334,7 @@ It is interesting to note the poor fit against the geodesic, as the
 edges are weighted by beeline distance this may conflate the poor fit
 since naturally you would not measure the closest route to a friends’
 home through taking intermediate stops to other friends’ homes, even
-worse travelling along straight lines - fortunately this is no
-Euclidean universe!!
+worse travelling along straight lines!!
 
 There is also the recognition that we account for little information but
 it might be an interesting exercise nevertheless, measuring your
