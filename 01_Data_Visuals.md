@@ -139,7 +139,7 @@ the friendship network and its attributes.
 # 0.000 0.555 1.025 1.328 1.856 5.457 3537
 ```
 
-## 06 - Graph of Smoking Behavior Network
+## 06 - Graph of Smoking Behaviour Network
 
 In order to plot a network graph of our data we use the `plot.network()`
 function weighing the length of edges according to students’ bee-line
