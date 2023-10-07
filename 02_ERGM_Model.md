@@ -333,6 +333,8 @@ simulated across our suite of networks.
 
 It is interesting to note the poor fit against the geodesic, as the
 edges are weighted by beeline distance this may conflate the poor fit
-since naturally you would not measure the closest route to a friends’
-home through taking intermediate stops to other friends’ homes, even
-worse travelling along straight lines!!
+since naturally you would not measure the closest route to a person's
+home through taking intermediate stops to your mutual friends’ homes, even
+worse travelling along straight lines!! While weighing 
+edges with this measure of distance proves an interesting visual exercise it
+does not lend to an intuitive choice when it comes to accounting for friendship tie formations.
