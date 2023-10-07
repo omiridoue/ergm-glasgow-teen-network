@@ -251,8 +251,9 @@ The value is estimated at 2.57 per cent. All in all we might think that the prob
 be reinforced by smoking behavior.
 
 Homophily is pertinent to this case as it reflects the extent to which
-pockets of higher *prevalence* of smoking, slowing the diffusion of
-information were this to promote healthier behavior.
+pockets of higher *prevalence* of smoking exist. Against the context of a health intervention
+this would slow the diffusion of information to teenagers at *higher risk* due to the close-knit
+nature of their social groups.
 
 ## 08 - Model Fit
 
@@ -335,8 +336,3 @@ edges are weighted by beeline distance this may conflate the poor fit
 since naturally you would not measure the closest route to a friends’
 home through taking intermediate stops to other friends’ homes, even
 worse travelling along straight lines!!
-
-There is also the recognition that we account for little information but
-it might be an interesting exercise nevertheless, measuring your
-relative location (distance) to classmates as a function of your
-friendships, smoking habits or your parents’ smoking habits.
