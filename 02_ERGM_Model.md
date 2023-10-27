@@ -184,12 +184,12 @@ variables that we model at a given specification.
 ## 07 - Homophily by way of Smoking Habits
 
 The starting point for this model arises from the question, *If Smokers
-‘only ever’ befriend other Smokers, do Non-Smokers Behave the Same?*
+‘only ever’ befriend other Smokers, do Non-Smokers Prefer Non-Smokers as Friends?*
 
-This may shed some insight behind the way non-smokers go about forming
+This may help us understand the way non-smokers go about forming
 friendships, if they are to some extent indifferent between forming
-‘within-group’ ties with other non-smokers and any other peer,
-regardless of their smoking habits.
+‘within-group’ ties primarily with other non-smokers or if this attribute/behaviour
+of smoking habits is not that important to them.
 
 ``` r
 Model_2 <- ergm(friendship_network ~ edges + nodematch("Smoking"))
@@ -241,7 +241,7 @@ friendship with any other person regardless of their smoking habits.
 These values change to $\frac{1}{1+exp(-(-4.3528+2(0.7176)))}=0.0512$ and
 $\frac{1}{1+exp(-(-4.3528+3(0.7176)))}=0.0998$ for those occasionally and
 regularly smoking, more than once a week. These correspond to a 3.02 (=5.12-2.57) and
-7.88 (9.88 - 2.57) per cent, difference in within-smoking-level compared to
+7.88 (=9.88 - 2.57) per cent, difference in within-smoking-level compared to
 across-smoking-level formation. Note the probability of tie formation 
 'across-smoking-level', that is regardless of others' smoking habits, is the
 previously estimated edge coefficient from Model 1, this is no other than the proportion of
