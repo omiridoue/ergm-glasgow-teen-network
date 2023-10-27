@@ -11,13 +11,13 @@ by [West et
 al. (1997)](https://www.stats.ox.ac.uk/~snijders/siena/Glasgow_data.htm).
 The Glasgow Teenage data set consists of three waves, for the purpose of
 this task we look at a cross-sectional snapshot extracting Wave 2
-outcomes.
+outcomes, as the first wave acts as a benchmark.
 
 ## 01 - Dependencies
 
 Load dependencies including that of `library(statnet)` to be able to
-parse data as Network objects. We also tap into data-processing
-libraries including `library(dplyr)`.
+parse data as a Network object. We also tap into data-processing
+libraries including that of `library(dplyr)`.
 
 ```{r dependencies, echo=T, messages=F}
 # Pass the set of libraries we intend to load as a list
@@ -69,11 +69,12 @@ friendship_network <- as.network(friend_binary)
 Using the pipe operator `%v%` we assign vertex attributes to the
 network.
 
-The smoking variable has missing, `NA` values, but we recode assigning a
-value of 1, `tobacco[is.na(tobacco)] <- 1`. In which case it corresponds
-to the non-smokers category. We assume the Null values that are missing
-completely at random, so that they there is no underlying process,
-unobserved factors linked to these observations.
+The smoking variable has missing, `NA` values, but we recode these with a value of 1, 
+`tobacco[is.na(tobacco)] <- 1`, this is in-line with coding practice that was followed
+in the original survey, where 1 was assigned to non-smokers. 
+In this way we assume all Null values to be missing
+completely at random, in other words that there is no underlying process,
+unobserved factors linked to the 'missing' nature of these observations.
 
 ``` r
 tobacco[is.na(tobacco)] <- 1
