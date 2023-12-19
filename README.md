@@ -21,5 +21,6 @@ To navigate the files open the .md extensions to view the notebooks 1 and 2 for 
 The notebooks embed the code outputs where appropriate; however, the data is also included in a separate folder. Any model plots are attached as
 png files.
 
-**Acknowledgement: Code for the application was adapted from the NCRM Social Network Analysis Short Course (Sept. 2023),
-all due acknowledgements are attributed to the course instructor, Dr. Michael Heaney.**
+## Acknowledgement: 
+Code for the application was adapted from the NCRM Social Network Analysis Short Course (Sept. 2023),
+all due acknowledgements are attributed to the course instructor, Dr. Michael Heaney.
