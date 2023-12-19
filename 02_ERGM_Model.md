@@ -36,15 +36,14 @@ Next load the survey files covering aspects from students’ lifestyle to
 friendship through the *Teenage Friends and Lifestyle Dataset*.
 
 ``` r
-setwd("../SNA_Sept_2023/Glasgow_data/")
 
-load("Glasgow-friendship.RData")
-load("Glasgow-substances.RData")
-load("Glasgow-geographic.RData")
-load("Glasgow-demographic.RData")
-load("Glasgow-geographic.RData")
-load("Glasgow-lifestyle.RData")
-load("Glasgow-various.RData")
+load("data/Glasgow-friendship.RData")
+load("data/Glasgow-substances.RData")
+load("data/Glasgow-geographic.RData")
+load("data/Glasgow-demographic.RData")
+load("data/Glasgow-geographic.RData")
+load("data/Glasgow-lifestyle.RData")
+load("data/Glasgow-various.RData")
 ```
 
 ## 02 - Read Network Data Structure
