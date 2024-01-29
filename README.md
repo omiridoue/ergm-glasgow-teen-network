@@ -7,20 +7,16 @@ Teenage Friends and Lifestyle Study - Glasgow
 
 ## Teenage Friends and Lifestyle Dataset
 
-| Recoded Variable Name | Study Indicator                                                                          | Data Transformations                                              |
-|------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| Smoking                | 1: Occasional or regular smokers; 0: Non-smokers or missing values (NA)                  | Recoded to binary: 1 for smokers, 0 for non-smokers or missing     |
-| friendship.2           | 0: No friendship, 1: Close friendships, 2: Best friends                                   | Recoded to binary: 0 for no friendship, 1 for close friendships, 2 for best friends |
-| Parent Smoking         | 1: Parent smokes; 0: Non-smokers or missing values (NA)                                    | Recoded to binary: 1 for parent smokers, 0 for non-smokers or missing |
-| Geographic Distance    | Bee-line distance between students' home addresses in kilometers                           | No transformation                                                  |
-
-
-|        Recoded Variable Name         |                               Original Study Indicator                           |
-|------------------------------------- | ---------------------------------------------------------------------------------| 
-|     Smoking (Vertex attribute)       |  1 if occasional (tobacco[,2]=2) or regular (tobacco[,2]=3); 0 if Non-Smoker (tobacco[,2]=1) or Missing value 'NA' |
-|           friendship.2               |  Adjacency matrix; structural zero recoded to 0, close (ij=1) & best friend (ij=2) to 1|
-| Parent Smoking (Vertex attribute)    |  1 if Parent Smokes (familysmoking[,2]=2) and 0 when (familysmoking[,2]=1 indicating a Non-Smoker or Missing values 'NA') |
-| Geographic Distance (Edge attribute) |                   Bee-line distance b/w students' home address (km)              |
+| Recoded Variable Name | Study Indicator                                                                           | Data Transformations                                               |
+|------------------------|------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| Smoking                | 1: Occasional or regular smokers;                                                        | Recoded to binary:                                                 |
+|                        | 0: Non-smokers or missing values (NA)                                                    | 1 for smokers, 0 for non-smokers or missing                          |
+| friendship.2           | 0: No friendship,                                                                      | Recoded to binary:                                                 |
+|                        | 1: Close friendships,                                                                  | 0 for no friendship,                                                |
+|                        | 2: Best friends                                                                         | 1 for close friendships,                                            |
+| Parent Smoking         | 1: Parent smokes;                                                                        | Recoded to binary:                                                 |
+|                        | 0: Non-smokers or missing values (NA)                                                    | 1 for parent smokers, 0 for non-smokers or missing                    |
+| Geographic Distance    | Bee-line distance between students' home addresses in kilometers                           | No transformation                                                    |
 
 Unless otherwise stated all base values for binary variable recodings are set to 0. Missing values are assumed to occur
 completely at random. All data for the application was extracted from Wave 2 of the study.
