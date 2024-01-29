@@ -9,14 +9,13 @@ Teenage Friends and Lifestyle Study - Glasgow
 
 | Recoded Variable Name | Study Indicator                                                                           | Data Transformations                                               |
 |------------------------|------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| Smoking                | 1: Occasional or regular smokers;                                                        | Recoded to binary:                                                 |
-|                        | 0: Non-smokers or missing values (NA)                                                    | 1 for smokers, 0 for non-smokers or missing                          |
-| friendship.2           | 0: No friendship,                                                                      | Recoded to binary:                                                 |
-|                        | 1: Close friendships,                                                                  | 0 for no friendship,                                                |
-|                        | 2: Best friends                                                                         | 1 for close friendships,                                            |
-| Parent Smoking         | 1: Parent smokes;                                                                        | Recoded to binary:                                                 |
-|                        | 0: Non-smokers or missing values (NA)                                                    | 1 for parent smokers, 0 for non-smokers or missing                    |
+| Smoking                | 1: Occasional or regular smokers; 0: Non-smokers or missing values (NA)                  | Recoded to binary: 1 for smokers, 0 for non-smokers or missing      |
+| friendship.2           | 0: No friendship, 1: Close friendships, 2: Best friends                                    | Recoded to binary: 0 for no friendship, 1 for close friendships, 2 for best friends |
+| Parent Smoking         | 1: Parent smokes; 0: Non-smokers or missing values (NA)                                     | Recoded to binary: 1 for parent smokers, 0 for non-smokers or missing  |
 | Geographic Distance    | Bee-line distance between students' home addresses in kilometers                           | No transformation                                                    |
+| Age                    | Age of the students                                                                      | No transformation                                                    |
+| Gender                 | Gender of the students                                                                   | No transformation                                                    |
+
 
 Unless otherwise stated all base values for binary variable recodings are set to 0. Missing values are assumed to occur
 completely at random. All data for the application was extracted from Wave 2 of the study.
