@@ -13,8 +13,6 @@ Teenage Friends and Lifestyle Study - Glasgow
 | friendship.2           | 0: No friendship, 1: Close friendships, 2: Best friends                                    | Recoded to binary: 0 for no friendship, 1 for close friendships, 2 for best friends |
 | Parent Smoking         | 1: Parent smokes; 0: Non-smokers or missing values (NA)                                     | Recoded to binary: 1 for parent smokers, 0 for non-smokers or missing  |
 | Geographic Distance    | Bee-line distance between students' home addresses in kilometers                           | No transformation                                                    |
-| Age                    | Age of the students                                                                      | No transformation                                                    |
-| Gender                 | Gender of the students                                                                   | No transformation                                                    |
 
 
 Unless otherwise stated all base values for binary variable recodings are set to 0. Missing values are assumed to occur
