@@ -7,6 +7,14 @@ Teenage Friends and Lifestyle Study - Glasgow
 
 ## Teenage Friends and Lifestyle Dataset
 
+| Recoded Variable Name | Study Indicator                                                                          | Data Transformations                                              |
+|------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| Smoking                | 1: Occasional or regular smokers; 0: Non-smokers or missing values (NA)                  | Recoded to binary: 1 for smokers, 0 for non-smokers or missing     |
+| friendship.2           | 0: No friendship, 1: Close friendships, 2: Best friends                                   | Recoded to binary: 0 for no friendship, 1 for close friendships, 2 for best friends |
+| Parent Smoking         | 1: Parent smokes; 0: Non-smokers or missing values (NA)                                    | Recoded to binary: 1 for parent smokers, 0 for non-smokers or missing |
+| Geographic Distance    | Bee-line distance between students' home addresses in kilometers                           | No transformation                                                  |
+
+
 |        Recoded Variable Name         |                               Original Study Indicator                           |
 |------------------------------------- | ---------------------------------------------------------------------------------| 
 |     Smoking (Vertex attribute)       |  1 if occasional (tobacco[,2]=2) or regular (tobacco[,2]=3); 0 if Non-Smoker (tobacco[,2]=1) or Missing value 'NA' |
