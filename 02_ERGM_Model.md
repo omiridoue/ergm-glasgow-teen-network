@@ -227,18 +227,18 @@ summary(Model_2)
     ## AIC: 4960  BIC: 4977  (Smaller is better. MC Std. Err. = 0)
 
 From model 1 the probability of network tie formation is
-$\frac{1}{1+exp(-(3.84045))}=0.021$, 2.1 per cent higher than in a random
+$1 - \frac{1}{1+exp(-(3.84045))}=0.021$, 2.1 per cent higher than in a random
 model.
 
 Given that you are a non-smoker, the estimated probability of forming a
 friendship with someone who is also a
-non-smoker, $\frac{1}{1+exp(-(-4.3528+0.7176))}=0.0257$, is 2.57 per cent. That
+non-smoker, $1 - \frac{1}{1+exp(-(-4.3528+0.7176))}=0.0257$, is 2.57 per cent. That
 is for non-smokers the probability of forming a within-level tie with
 their peers is marginally higher, 0.4 per cent, compared to striking a
 friendship with any other person regardless of their smoking habits.
 
-These values change to $\frac{1}{1+exp(-(-4.3528+2(0.7176)))}=0.0512$ and
-$\frac{1}{1+exp(-(-4.3528+3(0.7176)))}=0.0998$ for those occasionally and
+These values change to $1 - \frac{1}{1+exp(-(-4.3528+2(0.7176)))}=0.0512$ and
+$1 - \frac{1}{1+exp(-(-4.3528+3(0.7176)))}=0.0998$ for those occasionally and
 regularly smoking, more than once a week. These correspond to a 3.02 (=5.12-2.57) and
 7.88 (=9.88 - 2.57) per cent, difference in within-smoking-level compared to
 across-smoking-level formation. Note the probability of tie formation 
